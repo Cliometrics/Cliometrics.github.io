@@ -1,0 +1,9 @@
+name: "Cliometrics study group"
+navbar:
+      menu:
+        - text: About us
+          href: index.html
+        - text: Member
+          href: member.html
+        - text: Schedual
+          href: schedual.html
