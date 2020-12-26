@@ -1,0 +1,5 @@
+name: "cliometrics-study-group"
+output: 
+  rmdformats::material:
+    highlight: tango
+output_dir: "docs"
