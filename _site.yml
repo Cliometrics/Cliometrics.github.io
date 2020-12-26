@@ -1,5 +1,6 @@
 name: "cliometrics-study-group"
 output: 
-  rmdformats::material:
+  html_document:
+    themes: journal
     highlight: tango
 output_dir: "docs"

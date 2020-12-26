@@ -10,6 +10,7 @@ Please note that the website is still under construction.
 
 
 <!-- https://github.com/juba/rmdformats -->
+  <!-- rmdformats::material: -->
 
 # About the Study Group
 
