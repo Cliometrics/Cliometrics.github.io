@@ -1,6 +1,0 @@
-name: "cliometrics-study-group"
-output: 
-  html_document:
-    themes: journal
-    highlight: tango
-output_dir: "docs"
