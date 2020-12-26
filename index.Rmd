@@ -1,5 +1,5 @@
 ---
-title: "Cliometrics Study Group"
+title: "CliometricsStudyGroup"
 ---
 
 # Welcome!

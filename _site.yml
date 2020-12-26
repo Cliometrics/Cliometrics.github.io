@@ -1,4 +1,4 @@
-name: "cliometrics-study-group"
+name: "CliometricsStudyGroup"
 output: 
   rmdformats::material:
     highlight: tango
