@@ -1,5 +1,5 @@
 ---
-title: "CliometricsStudyGroup"
+title: "Cliometrics Study Group"
 ---
 
 # Welcome!
@@ -19,12 +19,11 @@ Please note that the website is still under construction.
 Holds a weekly meeting to read and discuss academic articles on economic history and applied microeconomics with historical data.
 
 
-Member
+## Member
 
-・
-[Shuhei KAINUMA](https://kainume.github.io)
+- [Shuhei KAINUMA](https://kainume.github.io)
 
-[Erika IGARASHI](https://sites.google.com/view/erika-igarashis-website/%E3%83%9B%E3%83%BC%E3%83%A0)
+- [Erika IGARASHI](https://sites.google.com/view/erika-igarashis-website/%E3%83%9B%E3%83%BC%E3%83%A0)
 
 # Past Meetings
 

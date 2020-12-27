@@ -2,4 +2,6 @@ name: "CliometricsStudyGroup"
 output: 
   rmdformats::material:
     highlight: tango
+    includes: 
+      in_header: GA_trackcode.html
 output_dir: "docs"
