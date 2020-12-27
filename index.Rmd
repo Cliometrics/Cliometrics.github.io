@@ -2,6 +2,12 @@
 title: "Cliometrics Study Group"
 ---
 
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(cache = TRUE, message = FALSE, warning = FALSE, echo = FALSE)
+
+library(tidyverse)
+```
+
 # Welcome!
 
 This is the website of _Cliometrics Study Group_ organised by Economic History graduate students at the University of Tokyo.
@@ -21,13 +27,26 @@ Holds a weekly meeting to read and discuss academic articles on economic history
 
 ## Member
 
+- [Erika IGARASHI](https://sites.google.com/view/erika-igarashis-website/%E3%83%9B%E3%83%BC%E3%83%A0)
 - [Shuhei KAINUMA](https://kainume.github.io)
 
-- [Erika IGARASHI](https://sites.google.com/view/erika-igarashis-website/%E3%83%9B%E3%83%BC%E3%83%A0)
 
-# Past Meetings
+# Schedule
 
+```{r table, echo=FALSE}
+table <- tibble(Date = c("Dec. 25, 2020", "Dec. 30, 2020"),
+                Paper = c("Becker, Rubin, and Woessmann (2020) WP", "Voth (2020) WP"))
+table %>% 
+ knitr::kable(format = 'html', digits = 3) %>% 
+  kableExtra::kable_styling() 
+```
+
+# Papers Read in Our Meeting
 
 # Useful Links
 
-test
+## Data Source
+
+## Webinar
+
+## Teaching Materials
