@@ -3,5 +3,5 @@ output:
   rmdformats::material:
     highlight: tango
     includes: 
-      in_header: GA_trackcode.html
+      in_header: GA_trackingcode.html
 output_dir: "docs"
