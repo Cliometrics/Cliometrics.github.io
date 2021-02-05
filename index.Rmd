@@ -43,6 +43,10 @@ table %>%
 
 # Papers Read in Our Meeting
 
+- [Handbook of Cliometrics vol.1 2nd edition(2019)](https://www.springer.com/gp/book/9783030001803)
+- Handbook of Historical Economics(WP)
+
+
 # Useful Links
 
 ## Data Source
