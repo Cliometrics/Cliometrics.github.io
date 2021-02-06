@@ -61,14 +61,14 @@ table <- tibble(Date = c("Dec. 25, 2020",
                 )
 table %>% 
  knitr::kable(format = 'html', digits = 3, escape = FALSE) %>% 
-  kableExtra::column_spec(1, width_min = "8em") %>% 
+  kableExtra::column_spec(1, width_min = "5em") %>% 
   kableExtra::column_spec(2, width_min = "10em") %>% 
   kableExtra::column_spec(3, width_min = "10em") %>% 
   kableExtra::kable_styling(full_width = F) 
 
 ```
 
-<!-- # Papers Read in Our Meeting -->
+# Papers Read in Our Meeting
 
 - [Handbook of Cliometrics vol.1 2nd edition(2019)](https://www.springer.com/gp/book/9783030001803)
 - Handbook of Historical Economics(WP)
