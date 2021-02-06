@@ -20,9 +20,9 @@ Please note that the website is still under construction.
 
 # About the Study Group
 
-*We love Economic History!!*
+<!-- *We love Economic History!!* -->
 
-Holds a weekly meeting to read and discuss academic articles on economic history and applied microeconomics with historical data.
+We hold a weekly meeting to read and discuss academic articles on economic history and applied microeconomics with historical data.
 
 
 ## Member
@@ -34,19 +34,48 @@ Holds a weekly meeting to read and discuss academic articles on economic history
 # Schedule
 
 ```{r table, echo=FALSE}
-table <- tibble(Date = c("Dec. 25, 2020", "Dec. 30, 2020"),
-                Paper = c("Becker, Rubin, and Woessmann (2020) WP", "Voth (2020) WP"))
+table <- tibble(Date = c("Dec. 25, 2020", 
+                         "Dec. 30, 2020",
+                         "Jan. 8, 2021",
+                         "Jan. 15, 2021",
+                         "Jan. 22, 2021",
+                         "Jan. 29, 2021",
+                         "Feb. 05, 2021"
+                         ),
+                Paper = c("Becker, Rubin, and Woessmann (2020) CEPR WP<br>Religion in Economic History : A Survey", 
+                          "Voth (2020) CEPR WP<br>Persistence - Myth and Mystery",
+                          "Yamasaki (2019) WP<br>Railroads, Technology Adoption, and Modern Economic Development: Evidence from Japan",
+                          "Nunn (2020) NBER WP<br>History as Evolution",
+                          "Nunn (2020) NBER WP (Cont.)",
+                          "Persson & Tabellini (2020) WP<br>Culture, Institutions and Policy",
+                          "Greenwood, Guner, Kopecky (2019) NBER WP<br>The Wife’s Protector: A Quantitative Theory Linking Contraceptive Technology with the Decline in Marriage"
+                          ),
+                Link = c("https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
+                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15417",
+                         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3432796.",
+                         "https://www.nber.org/papers/w27706",
+                         "https://www.nber.org/papers/w27706",
+                         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680457",
+                         "https://www.nber.org/papers/w26410"
+                         )
+                )
 table %>% 
- knitr::kable(format = 'html', digits = 3) %>% 
-  kableExtra::kable_styling() 
+ knitr::kable(format = 'html', digits = 3, escape = FALSE) %>% 
+  kableExtra::column_spec(1, width_min = "8em") %>% 
+  kableExtra::column_spec(2, width_min = "10em") %>% 
+  kableExtra::column_spec(3, width_min = "10em") %>% 
+  kableExtra::kable_styling(full_width = F) 
+
 ```
 
-# Papers Read in Our Meeting
+<!-- # Papers Read in Our Meeting -->
 
 # Useful Links
 
-## Data Source
+Coming soon!
 
-## Webinar
+<!-- ## Data Source -->
 
-## Teaching Materials
+<!-- ## Webinar -->
+
+<!-- ## Teaching Materials -->
