@@ -33,6 +33,33 @@ We hold a weekly meeting to read and discuss academic articles on economic histo
 
 # Schedule
 
+```{r table_housekeeping, echo=FALSE, cache=TRUE}
+link_url <- c("https://www.nber.org/papers/w26410",
+                         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680457",
+                         "https://www.nber.org/papers/w27706",
+                         "https://www.nber.org/papers/w27706",
+                         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3432796.",
+                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15417",
+                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
+                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
+                         "https://economics.harvard.edu/files/economics/files/attitudesaptitudes.pdf",
+                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15208",
+                         "https://www.nber.org/papers/w27967",
+                         "https://www.nber.org/papers/w26754",
+                         "https://www.sciencedirect.com/science/article/pii/S0014498304000592",
+                         "https://academic.oup.com/qje/article/123/3/1251/1928174?related-urls=yes&legid=qje;123/3/1251",
+                         "https://www.aeaweb.org/articles?id=10.1257/app.3.3.124",
+                         "https://academic.oup.com/qje/article/123/1/139/1889789",
+                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_42",
+                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_3",
+                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_33",
+                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_27",
+                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_23",
+                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_28",
+                         "http://www.yuhikaku.co.jp/books/detail/9784641164888"
+                         )
+```
+
 ```{r table, echo=FALSE}
 table <- tibble(Date = c("Feb. 05, 2021",
                          "Jan. 29, 2021",
@@ -58,68 +85,69 @@ table <- tibble(Date = c("Feb. 05, 2021",
                          "Aug. 06, 2020",
                          "From Apr. 10, 2020 to Jun. 28, 2020"
                          ),
-                Paper = c("Greenwood, Guner, Kopecky (2019) NBER WP<br>The Wife’s Protector: A Quantitative Theory Linking Contraceptive Technology with the Decline in Marriage",
-                          "Persson & Tabellini (2020) WP<br>Culture, Institutions and Policy",
+                Paper = c("Greenwood, Guner, Kopecky (2019) NBER WP\nThe Wife’s Protector: A Quantitative Theory Linking Contraceptive Technology with the Decline in Marriage",
+                          "Persson & Tabellini (2020) WP\nCulture, Institutions and Policy",
                           "Nunn (2020) NBER WP (Cont.)",
-                          "Nunn (2020) NBER WP<br>History as Evolution",
-                          "Yamasaki (2019) WP<br>Railroads, Technology Adoption, and Modern Economic Development: Evidence from Japan",
-                          "Voth (2020) CEPR WP<br>Persistence - Myth and Mystery",
+                          "Nunn (2020) NBER WP\nHistory as Evolution",
+                          "Yamasaki (2019) WP\nRailroads, Technology Adoption, and Modern Economic Development: Evidence from Japan",
+                          "Voth (2020) CEPR WP\nPersistence - Myth and Mystery",
                           "Becker, Rubin, and Woessmann (2020) CEPR WP (Cont.)",
-                          "Becker, Rubin, and Woessmann (2020) CEPR WP<br>Religion in Economic History : A Survey",
-                          "Mokyr (2019) WP<br>Attitudes, Aptitudes, and the Roots of the Great Enrichment",
-                          "Valencia Caicedo (2020) CEPR WP<br>Historical Econometrics: Instrumental Variables and Regression Discontinuity Designs",
-                          "Giuliano & Matranga (2020) NBER WP<br>Historical Data: Where to Find Them, How to Use Them",
-                          "Cantoni & Yuchtman (2020) NBER WP<br>Historical Natural Experiments: Bridging Economics and Economic History",
-                          "Okazaki (2005) EEH<br>The role of the merchant coalition in pre-modern Japanese economic development: An historical institutional analysis",
-                          "Qian (2008) QJE<br>Missing Women and the Price of Tea in China: The Effect of Sex-Specific Earnings on Sex Imbalance",
-                          "Abramitzky, Delavande, Vasconcelos (2011) AEJ: Applied<br>Marrying up: The role of sex ratio in assortative matching",
-                          "Nunn (2008) QJE<br>The long-term effects of Africa's slave trades",
-                          "Hoffman (2019) Handbook of Cliometrics<br>Institutions",
-                          "Diebolt & Perrin (2019) Handbook of Cliometrics<br>Cliometrics of Growth",
-                          "Burnette (2019) Handbook of Cliometrics<br>Gender in Economic History",
-                          "Margo (2019) Handbook of Cliometrics<br>Labor Markets",
-                          "Goldin (2019) Handbook of Cliometrics<br>Human Capital",
-                          "Temin (2019) Handbook of Cliometrics<br>Economic History and Economic Development: New Economic History in Retrospect and Prospect",
-                          "Sawai & Tanimoto (2016)<br>The Economic History of Japan: From the Early Modern Era to the Present"
-                          ),
-                Link = c("https://www.nber.org/papers/w26410",
-                         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680457",
-                         "https://www.nber.org/papers/w27706",
-                         "https://www.nber.org/papers/w27706",
-                         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3432796.",
-                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15417",
-                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
-                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
-                         "https://economics.harvard.edu/files/economics/files/attitudesaptitudes.pdf",
-                         "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15208",
-                         "https://www.nber.org/papers/w27967",
-                         "https://www.nber.org/papers/w26754",
-                         "https://www.sciencedirect.com/science/article/pii/S0014498304000592",
-                         "https://academic.oup.com/qje/article/123/3/1251/1928174?related-urls=yes&legid=qje;123/3/1251",
-                         "https://www.aeaweb.org/articles?id=10.1257/app.3.3.124",
-                         "https://academic.oup.com/qje/article/123/1/139/1889789",
-                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_42",
-                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_3",
-                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_33",
-                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_27",
-                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_23",
-                         "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_28",
-                         "http://www.yuhikaku.co.jp/books/detail/9784641164888"
-                         )
-                )
+                          "Becker, Rubin, and Woessmann (2020) CEPR WP\nReligion in Economic History : A Survey",
+                          "Mokyr (2019) WP\nAttitudes, Aptitudes, and the Roots of the Great Enrichment",
+                          "Valencia Caicedo (2020) CEPR WP\nHistorical Econometrics: Instrumental Variables and Regression Discontinuity Designs",
+                          "Giuliano & Matranga (2020) NBER WP\nHistorical Data: Where to Find Them, How to Use Them",
+                          "Cantoni & Yuchtman (2020) NBER WP\nHistorical Natural Experiments: Bridging Economics and Economic History",
+                          "Okazaki (2005) EEH\nThe role of the merchant coalition in pre-modern Japanese economic development: An historical institutional analysis",
+                          "Qian (2008) QJE\nMissing Women and the Price of Tea in China: The Effect of Sex-Specific Earnings on Sex Imbalance",
+                          "Abramitzky, Delavande, Vasconcelos (2011) AEJ: Applied\nMarrying up: The role of sex ratio in assortative matching",
+                          "Nunn (2008) QJE\nThe long-term effects of Africa's slave trades",
+                          "Hoffman (2019) Handbook of Cliometrics\nInstitutions",
+                          "Diebolt & Perrin (2019) Handbook of Cliometrics\nCliometrics of Growth",
+                          "Burnette (2019) Handbook of Cliometrics\nGender in Economic History",
+                          "Margo (2019) Handbook of Cliometrics\nLabor Markets",
+                          "Goldin (2019) Handbook of Cliometrics\nHuman Capital",
+                          "Temin (2019) Handbook of Cliometrics\nEconomic History and Economic Development: New Economic History in Retrospect and Prospect",
+                          "Sawai & Tanimoto (2016)\nThe Economic History of Japan: From the Early Modern Era to the Present"
+                          )#,
+                # Link = c("https://www.nber.org/papers/w26410",
+                #          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680457",
+                #          "https://www.nber.org/papers/w27706",
+                #          "https://www.nber.org/papers/w27706",
+                #          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3432796.",
+                #          "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15417",
+                #          "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
+                #          "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=14894",
+                #          "https://economics.harvard.edu/files/economics/files/attitudesaptitudes.pdf",
+                #          "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15208",
+                #          "https://www.nber.org/papers/w27967",
+                #          "https://www.nber.org/papers/w26754",
+                #          "https://www.sciencedirect.com/science/article/pii/S0014498304000592",
+                #          "https://academic.oup.com/qje/article/123/3/1251/1928174?related-urls=yes&legid=qje;123/3/1251",
+                #          "https://www.aeaweb.org/articles?id=10.1257/app.3.3.124",
+                #          "https://academic.oup.com/qje/article/123/1/139/1889789",
+                #          "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_42",
+                #          "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_3",
+                #          "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_33",
+                #          "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_27",
+                #          "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_23",
+                #          "https://link.springer.com/referenceworkentry/10.1007/978-3-030-00181-0_28",
+                #          "http://www.yuhikaku.co.jp/books/detail/9784641164888"
+                #          )
+                ) 
 table %>% 
- knitr::kable(format = 'html', digits = 3, escape = FALSE) %>% 
+  mutate(Paper = kableExtra::cell_spec(Paper, 'html', link = link_url, color = 'green')) %>% 
+  knitr::kable(format = 'html', digits = 3, escape = FALSE) %>% 
   kableExtra::column_spec(1, width_min = "5em") %>% 
   kableExtra::column_spec(2, width_min = "10em") %>% 
-  kableExtra::column_spec(3, width_min = "10em") %>% 
-  kableExtra::kable_styling(full_width = F) 
+  # kableExtra::column_spec(3, width_min = "10em") %>% 
+  kableExtra::kable_styling(full_width = F, bootstrap_options = 'striped')#c("hover", "condensed"))
 
 ```
 
 # Papers Read in Our Meeting
 
 - [Handbook of Cliometrics vol.1 2nd edition(2019)](https://www.springer.com/gp/book/9783030001803)
-- Handbook of Historical Economics(WP)
+- Handbook of Historical Economics (Working Paper Version)
 
 
 # Useful Links
