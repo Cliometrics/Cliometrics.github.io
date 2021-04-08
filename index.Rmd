@@ -38,7 +38,10 @@ We hold a weekly meeting to read and discuss academic articles on economic histo
 # Schedule
 
 ```{r table_housekeeping, echo=FALSE, cache=TRUE}
-link_url <- c("https://www.nber.org/papers/w27852",
+link_url <- c("https://sites.google.com/site/pabloquerubin/research",
+              "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15795",
+              "https://www.nber.org/papers/w27918",
+              "https://www.nber.org/papers/w27852",
               "",
               "",
               "https://arxiv.org/abs/2102.00687",
@@ -69,7 +72,10 @@ link_url <- c("https://www.nber.org/papers/w27852",
 ```
 
 ```{r table, echo=FALSE}
-table <- tibble(Date = c("March 12, 2021",
+table <- tibble(Date = c("April 9, 2021",
+                         "April 2, 2021",
+                         "March 18, 2021",
+                         "March 12, 2021",
                          "Feb. 26, 2021",
                          "Feb. 19, 2021",
                          "Feb. 12, 2021",
@@ -97,7 +103,10 @@ table <- tibble(Date = c("March 12, 2021",
                          "Aug. 06, 2020",
                          "From Apr. 10, 2020 to Jun. 28, 2020"
                          ),
-                Paper = c("Acemoglu, Egorov, Sonin (2020) NBER WP\nInstitutional Change and Institutional Persistence",
+                Paper = c("Malis, Querubin, Satyanath (2020) WP\nPersistent Failure? International Interventions Since World War II",
+                          "Bisin & Federico (2021) CEPR WP\nMerger or Acquisition ? Introduction to the Handbook of Historical Economics",
+                          "Lowes (2020) NBER WP\nEthnographic and Field Data in Historical Economics",
+                          "Acemoglu, Egorov, Sonin (2020) NBER WP\nInstitutional Change and Institutional Persistence",
                           "Research Presentation by Erika",
                           "Research Presentation by Shuhei",
                           "Ogasawara & Igarashi (2021) WP\nThe Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan",
