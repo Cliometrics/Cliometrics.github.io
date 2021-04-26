@@ -38,7 +38,8 @@ We hold a weekly meeting to read and discuss academic articles on economic histo
 # Schedule
 
 ```{r table_housekeeping, echo=FALSE, cache=TRUE}
-link_url <- c("https://sites.google.com/site/pabloquerubin/research",
+link_url <- c("https://s18798.pcdn.co/albertobisin/wp-content/uploads/sites/16384/2021/01/CI-HHEfin.pdf",
+              "https://sites.google.com/site/pabloquerubin/research",
               "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15795",
               "https://www.nber.org/papers/w27918",
               "https://www.nber.org/papers/w27852",
@@ -72,7 +73,8 @@ link_url <- c("https://sites.google.com/site/pabloquerubin/research",
 ```
 
 ```{r table, echo=FALSE}
-table <- tibble(Date = c("April 9, 2021",
+table <- tibble(Date = c("April 22, 2021",
+                         "April 16, 2021",
                          "April 2, 2021",
                          "March 18, 2021",
                          "March 12, 2021",
@@ -103,7 +105,8 @@ table <- tibble(Date = c("April 9, 2021",
                          "Aug. 06, 2020",
                          "From Apr. 10, 2020 to Jun. 28, 2020"
                          ),
-                Paper = c("Malis, Querubin, Satyanath (2020) WP\nPersistent Failure? International Interventions Since World War II",
+                Paper = c("Bisin & Verdier (2020) WP\nPhase Diagram in Historical Economics: Culture and Institution",
+                          "Malis, Querubin, Satyanath (2020) WP\nPersistent Failure? International Interventions Since World War II",
                           "Bisin & Federico (2021) CEPR WP\nMerger or Acquisition ? Introduction to the Handbook of Historical Economics",
                           "Lowes (2020) NBER WP\nEthnographic and Field Data in Historical Economics",
                           "Acemoglu, Egorov, Sonin (2020) NBER WP\nInstitutional Change and Institutional Persistence",
