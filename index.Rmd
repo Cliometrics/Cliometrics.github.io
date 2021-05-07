@@ -15,19 +15,19 @@ library(tidyverse)
 
 This is the website of _Cliometrics Study Group_ organised by Economic History graduate students at the University of Tokyo.
 
-Please note that the website is still under construction.
+We hold a weekly meeting to read and discuss academic articles on economic history and applied microeconomics with historical data.  
+Our current focus is on the interplay of culture and institutions in history.
+
+<!-- Please note that the website is still under construction. -->
 
 
 <!-- https://github.com/juba/rmdformats -->
   <!-- rmdformats::material: -->
 
 <!-- # About the Study Group -->
-# About Us
+<!-- # About Us -->
 
 <!-- *We love Economic History!!* -->
-
-We hold a weekly meeting to read and discuss academic articles on economic history and applied microeconomics with historical data.
-
 
 ## Member
 
@@ -38,7 +38,9 @@ We hold a weekly meeting to read and discuss academic articles on economic histo
 # Schedule
 
 ```{r table_housekeeping, echo=FALSE, cache=TRUE}
-link_url <- c("https://s18798.pcdn.co/albertobisin/wp-content/uploads/sites/16384/2021/01/CI-HHEfin.pdf",
+link_url <- c("https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
+              "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
+              "https://s18798.pcdn.co/albertobisin/wp-content/uploads/sites/16384/2021/01/CI-HHEfin.pdf",
               "https://sites.google.com/site/pabloquerubin/research",
               "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15795",
               "https://www.nber.org/papers/w27918",
@@ -73,7 +75,9 @@ link_url <- c("https://s18798.pcdn.co/albertobisin/wp-content/uploads/sites/1638
 ```
 
 ```{r table, echo=FALSE}
-table <- tibble(Date = c("April 22, 2021",
+table <- tibble(Date = c("May 7, 2021",
+                         "April 29, 2021",
+                         "April 22, 2021",
                          "April 16, 2021",
                          "April 2, 2021",
                          "March 18, 2021",
@@ -105,7 +109,9 @@ table <- tibble(Date = c("April 22, 2021",
                          "Aug. 06, 2020",
                          "From Apr. 10, 2020 to Jun. 28, 2020"
                          ),
-                Paper = c("Bisin & Verdier (2020) WP\nPhase Diagram in Historical Economics: Culture and Institution",
+                Paper = c("North (2005)\nUnderstanding the Process of Economic Change: Chap.3-4",
+                          "North (2005)\nUnderstanding the Process of Economic Change: Chap.1-2",
+                          "Bisin & Verdier (2020) WP\nPhase Diagram in Historical Economics: Culture and Institution",
                           "Malis, Querubin, Satyanath (2020) WP\nPersistent Failure? International Interventions Since World War II",
                           "Bisin & Federico (2021) CEPR WP\nMerger or Acquisition ? Introduction to the Handbook of Historical Economics",
                           "Lowes (2020) NBER WP\nEthnographic and Field Data in Historical Economics",
@@ -178,13 +184,15 @@ table %>%
 <!-- # Papers Read in Our Meeting -->
 # Papers Read
 
+Mainly from
+
 - [Handbook of Cliometrics vol.1 2nd edition(2019)](https://www.springer.com/gp/book/9783030001803)
-- Handbook of Historical Economics (Working Paper Version)
+- [Handbook of Historical Economics](https://www.elsevier.com/books/the-handbook-of-historical-economics/bisin/978-0-12-815874-6) (Working Paper Version)
 
 
-# Useful Links
+<!-- # Useful Links -->
 
-Coming soon!
+<!-- Coming soon! -->
 
 <!-- ## Data Source -->
 
