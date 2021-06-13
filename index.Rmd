@@ -42,6 +42,9 @@ link_url <- c("https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%2
               "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
               "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
               "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
+              "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
+              "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
+              "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
               "https://s18798.pcdn.co/albertobisin/wp-content/uploads/sites/16384/2021/01/CI-HHEfin.pdf",
               "https://sites.google.com/site/pabloquerubin/research",
               "https://cepr.org/active/publications/discussion_papers/dp.php?dpno=15795",
@@ -77,7 +80,10 @@ link_url <- c("https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%2
 ```
 
 ```{r table, echo=FALSE}
-table <- tibble(Date = c("May 20th, 2021",
+table <- tibble(Date = c("June 10th, 2021",
+                         "June 3rd, 2021",
+                         "May 27th, 2021",
+                         "May 20th, 2021",
                          "May 14th, 2021",
                          "May 7, 2021",
                          "April 29, 2021",
@@ -113,7 +119,10 @@ table <- tibble(Date = c("May 20th, 2021",
                          "Aug. 06, 2020",
                          "From Apr. 10, 2020 to Jun. 28, 2020"
                          ),
-                Paper = c("North (2005)\nUnderstanding the Process of Economic Change: Chap.7",
+                Paper = c("North (2005)\nUnderstanding the Process of Economic Change: Chap.11-13",
+                          "North (2005)\nUnderstanding the Process of Economic Change: Chap.10",
+                          "North (2005)\nUnderstanding the Process of Economic Change: Chap.8-9",
+                          "North (2005)\nUnderstanding the Process of Economic Change: Chap.7",
                           "North (2005)\nUnderstanding the Process of Economic Change: Chap.5-6",
                           "North (2005)\nUnderstanding the Process of Economic Change: Chap.3-4",
                           "North (2005)\nUnderstanding the Process of Economic Change: Chap.1-2",
