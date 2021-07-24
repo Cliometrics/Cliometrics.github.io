@@ -38,7 +38,8 @@ Our current focus is on the interplay of culture and institutions in history.
 # Schedule
 
 ```{r table_housekeeping, echo=FALSE, cache=TRUE}
-link_url <- c("https://www.nber.org/papers/w28832",
+link_url <- c("https://www.nber.org/papers/w28918", 
+              "https://www.nber.org/papers/w28832",
               "https://www.nber.org/papers/w28832",
               "https://academic.oup.com/qje/advance-article-abstract/doi/10.1093/qje/qjab003/6124640?redirectedFrom=fulltext",
               "https://www.jstor.org/stable/j.ctt7zvbxt#:~:text=North%20argues%20that%20economic%20change,to%20political%20and%20economic%20feedback.",
@@ -83,7 +84,8 @@ link_url <- c("https://www.nber.org/papers/w28832",
 ```
 
 ```{r table, echo=FALSE}
-table <- tibble(Date = c("July 8th, 2021", 
+table <- tibble(Date = c("July 15th, 2021",
+                         "July 8th, 2021", 
                          "July 1st, 2021",
                          "June 17th, 2021",
                          "June 10th, 2021",
@@ -125,7 +127,8 @@ table <- tibble(Date = c("July 8th, 2021",
                          "Aug. 06, 2020",
                          "From Apr. 10, 2020 to Jun. 28, 2020"
                          ),
-                Paper = c("Acemoglu & Robinson (2021) NBER WP\nCulture, Institutions and Social Equilibria: A Framework",
+                Paper = c("Bau & Fernández (2021) NBER WP\nThe Family as a Social Institution",
+                          "Acemoglu & Robinson (2021) NBER WP\nCulture, Institutions and Social Equilibria: A Framework",
                           "Acemoglu & Robinson (2021) NBER WP\nCulture, Institutions and Social Equilibria: A Framework",
                           "Michalopoulos & Xue (2021) QJE\nFolklore",
                           "North (2005)\nUnderstanding the Process of Economic Change: Chap.11-13",
